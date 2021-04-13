@@ -1,0 +1,124 @@
+body {
+    
+
+    background-image: url(../image/galaxie.jpg);
+    
+
+}
+
+header{
+    background-image: url(../image/chameau.jpg);
+    height: 350px;  
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(180, 21, 74);
+    font-size: 80px;
+}
+
+nav {
+    padding: 0;
+    margin: 0; 
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+li {
+    display: inline;
+    list-style: none;
+    background-color: rgb(122, 77, 163);
+    font-family: cursive;
+}
+
+a {
+    display: inline-block;
+    margin: 0 50px;
+    text-decoration: none;
+    color: rgb(248, 97, 248);
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 10px;
+}
+
+#navIcon {
+    display: none;
+}
+
+@media screen and (max-width: 680px){
+    a, form {
+        display: none;
+    }
+    #navIcon {
+        display: block;
+    }
+}
+
+.presentation {
+    background-color: rgb(183, 159, 233);
+    margin: 20px;
+    padding: 20px;
+    margin-top: 0;
+    color: rgb(7, 107, 52);
+    font-family: cursive;
+    text-align: justify;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around ;
+
+}
+h2 {
+    text-decoration-line: underline;
+}
+img { 
+    width: 60%;
+    height: 145px
+}
+#destination {
+    font-family: Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(108, 108, 212);
+  
+}
+
+#reservation {
+    font-family: Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(228, 95, 233);
+    
+
+}
+
+#contact {
+    font-family: Helvetica, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    background-color: rgb(250, 84, 186);
+    
+}
+
+@media screen and (max-width: 992px) {
+    .bloc{
+        flex-direction: column;
+    }
+}
